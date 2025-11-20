@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About — VoyageCo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white py-3 shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">VoyageCo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMain"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMain">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destinations.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tours.html">Tours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="py-5">
+      <div class="container">
+        <h2 data-aos="fade-up">About VoyageCo</h2>
+        <p class="text-muted" data-aos="fade-up" data-aos-delay="60">
+          We are a boutique travel company focused on authentic experiences and
+          sustainable practices.
+        </p>
+
+        <div class="row align-items-center mt-4">
+          <div class="col-md-6" data-aos="fade-right">
+            <img
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=60"
+              class="img-fluid rounded"
+              alt=""/>
+          </div>
+          <div class="col-md-6" data-aos="fade-left">
+            <div class="form-card">
+              <h5>Our mission</h5>
+              <p class="text-muted">
+                To create travel moments that respect destinations, uplift
+                communities and inspire lasting curiosity.
+              </p>
+              <ul class="text-muted">
+                <li>Small group sizes</li>
+                <li>Local partnerships</li>
+                <li>Carbon-conscious options</li>
+              </ul>
+              <a href="contact.html" class="btn btn-brand">Work with us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-md-4">
+        <a class="navbar-brand" href="index.html">VoyageCo</a>
+        <p class="text-muted">Crafting thoughtful travel experiences since 2015. Small groups, local guides, and authentic stays.</p>
+      </div>
+      <div class="col-md-2">
+        <h6>Company</h6>
+        <ul class="list-unstyled text-muted">
+          <li><a href="index.html" class="text-muted">Home</a></li>
+          <li><a href="destinations.html" class="text-muted">Destination</a></li>
+          <li><a href="tours.html" class="text-muted">Tours</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>Contact</h6>
+        <p class="text-muted mb-0">hello@voyageco.example<br>+1 (555) 987-6543</p>
+      </div>
+      <div class="col-md-3">
+        <h6>Newsletter</h6>
+        <form class="d-flex gap-2">
+          <input class="form-control" type="email" placeholder="you@email.com">
+          <button class="btn btn-brand">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="text-center text-muted mt-4">© <span id="year"></span> VoyageCo. All rights reserved.</div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+      document.getElementById("year4").innerText = new Date().getFullYear();
+    </script>
+  </body>
+</html>
